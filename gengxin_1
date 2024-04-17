@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        * {
+            border: 1px solid black;
+        }
+        .flex {
+            display: flex;
+        }
+        .column {
+            flex-direction: column;
+        }
+
+        .center {
+            align-items: center;
+        }
+   
+        @media screen and (max-width: 700px) {
+        .row {
+          flex-direction: column;
+        }
+        }
+
+      
+        @media screen and (max-width: 400px) {
+        .navbar a {
+          float: none;
+          width: 100%;
+        }
+        }
+
+
+    </style>
+</head>
+<body class="flex column">
+    <p>更新的html文件</p>
+    <div style="text-align: center; height: 150px; background-color: rgb(175, 209, 169);">
+        <h1>测试网站实例</h1>
+        <p>创建一个页面</p>
+    </div>
+    <div style="text-align: center; height: 30px; background-color: #25541d;" class="flex">
+        <div style="flex: 1;">测试</div>
+        <div style="flex: 1;">测试</div>
+        <div style="flex: 1;">测试</div>
+        <div style="flex: 3;"></div>
+        <div style="flex: 1;">测试</div> 
+    </div>
+    <div  class="flex column">
+        <h1>关于我</h1>
+        <p>兔子真实的照片</p>
+        <div style="height: 150px; background-color: rgb(141, 149, 156);" class="flex center">            
+            <img src="https://i2.3conline.com/images/piclib/201102/11/batch/1/83824/1297359328952qd4amvnlb7.jpg" height="100px" width="150px" alt="兔子">
+            <p>&nbsp;&nbsp;网络上的兔子图片，可以用其他图片代替</p>
+        </div>
+        <p>关于兔子的介绍</p>
+        <h1>更多内容</h1>
+        <p></p>
+        <div style="height: 100px; background-color: #eee;" class="flex center">
+            <p>卡通兔</p>
+            <img src="https://ts1.cn.mm.bing.net/th/id/R-C.19a90c26667d6b881be2a172c89187d0?rik=yUUPODBdH1t%2fzw&riu=http%3a%2f%2fwww.kuaipng.com%2fUploads%2fpic%2fwater%2f24932%2fgoods_water_24932_698_698_.png&ehk=dsTiGXosnoY3%2bJvAUWZ%2f2NN73CdWuly0I02Rfk14tS8%3d&risl=&pid=ImgRaw&r=0" height="70px" width="100px"  alt="卡通兔">
+        </div>
+        <br>
+        <div style="height: 100px; background-color: #eee;" class="flex center">
+            <p>卡通兔</p>
+            <img src="https://img.51miz.com/Element/00/78/72/46/f99eaf22_E787246_f008ef89.png" height="70px" width="100px"  alt="卡通兔">
+        </div>
+        <br>
+        <div style="height: 100px; background-color: #eee;" class="flex center">
+            <p>卡通兔</p>
+            <img src="https://img95.699pic.com/element/40111/3343.png_860.png" height="70px" width="100px"  alt="卡通兔">
+        </div>
+    </div>
+    <div class="flex column">
+        <h1>标题</h1>
+        <h3>副标题</h3>
+        <div style="height: 150px; background-color: rgb(141, 149, 156);" class="flex center">
+            <p>图像</p>
+            <img src="https://ts1.cn.mm.bing.net/th/id/R-C.ee78ca832323988dd3c6d711ea7d3718?rik=%2fJCBv5UgAK7sXA&riu=http%3a%2f%2fimg95.699pic.com%2fphoto%2f50085%2f8261.jpg_wh860.jpg&ehk=cUTA3kKuoGGgtUigRghdz124HbiaI3WigSY2qqljB4s%3d&risl=&pid=ImgRaw&r=0" alt="兔子" height="100px" width="150px">        
+        </div>
+        <p>一些文本</p>
+        <p>兔子教程，不仅学的跟乌龟比赛</p>
+        <br>
+        <h1>标题</h1>
+        <h3>副标题</h3>
+        <div style="height: 150px; background-color: rgb(141, 149, 156);" class="flex center">
+            <p>图像</p>
+            <img src="https://ts1.cn.mm.bing.net/th/id/R-C.c19380820896b8b05a4228063310727b?rik=LAtZvIk4npFWTA&riu=http%3a%2f%2fwww.netbian.com%2fd%2ffile%2f20110106%2fe6ec7c5041245f67cca1536367fd3039.jpg&ehk=lP%2fc0mj6BpNrxja2Hr4p%2bCxYNwXMiHA%2bPZoKMTPQXoA%3d&risl=&pid=ImgRaw&r=0" alt="兔子" height="100px" width="150px">
+        </div>
+        <p>一些文本</p>
+        <p>兔子教程，不仅学的跟乌龟比赛</p>
+        <br>
+    </div>
+    <div>
+        <h1 style="text-align: center;">我的测试网站</h1>
+    </div>    
+</body>
+</html>
